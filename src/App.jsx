@@ -6,6 +6,7 @@ import viteLogo from '/vite.svg';
 import NavBar from './NavBar'; 
 import Login from './Login';
 import About from './About';
+import Foreman from './Pages/Foreman';
 import './App.css';
 
 function App() {
@@ -22,10 +23,11 @@ function App() {
   return (
     <>
       <Router>
-        <NavBar />
+        <NavBar language={language} />
         <Routes>
-          <Route path={`/${language === 'en' ? 'login' : 'inicio'}`} element={<Login language={language} />} />
-          <Route path={`/${language === 'en' ? 'about' : 'acerca'}`} element={<About language={language} />} />
+          <Route path={`/Login`} element={<Login language={language} />} />
+          <Route path={`/About`} element={<About language={language} />} />
+          <Route path={`/Foreman`} element={<Foreman />} />
           <Route path="*" element={<Login language={language} />} />
         </Routes>
       </Router>

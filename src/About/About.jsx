@@ -6,8 +6,8 @@ function About() {
         
         <div>
             <h1>KSR</h1>
-            <p>Steve Sucks.</p>
-            <p>Kate is cool</p>
+            <h2>Steve Sucks.</h2>
+            <h2>Kate is cool.</h2>
         </div>
         
     );

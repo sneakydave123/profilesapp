@@ -10,6 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@aws-amplify/backend-cli": "^1.2.2",
+    "amplify-cli": "^1.0.0",
+    "ampx": "^0.2.1",
+    "aws-amplify": "^6.5.0",
+    "globstar": "^1.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",
