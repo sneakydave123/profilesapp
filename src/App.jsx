@@ -11,7 +11,10 @@ import './App.css';
 function App() {
   //[item, function] use state allows for a variable to be stored and updated
   const [language, setLanguage] = useState('en');
-
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // TODO: Implement login logic
+  };
   const toggleLanguage = () => {
     setLanguage((prevLanguage) => (prevLanguage === 'en' ? 'es' : 'en'));
   };

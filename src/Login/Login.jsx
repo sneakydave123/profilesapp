@@ -22,7 +22,7 @@ function Login({ language }) {
 
   return (
     <div className='login-container'>
-      <h2>Login</h2>
+      <h1>KSR Login</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="username">{language === 'en' ? 'Username:' : language === 'es' ? 'Nombre de usuario:' : 'Nom d\'utilisateur:'}</label>

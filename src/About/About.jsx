@@ -1,8 +1,7 @@
 // src/About.jsx
 import React from 'react';
-import clearHtml from '../clearHtml';
+
 function About() {
-    clearHtml();
     return (
         
         <div>
